@@ -1,0 +1,55 @@
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/cc/a5/02/cca5022c86f67861746d7cf2eb486de8.gif') center center/cover fixed;
+    /* Add any other global styles you may need for the specific page */
+  }
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; /* Adjust the width to make the popup smaller */
+    padding: 25px;
+    background-color: rgba(250, 235, 215, 0.16); /* Adjust the alpha value for transparency */
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%; /* Adjust the value to center the popup vertically */
+}
+
+.input {
+    width: 60%; /* Increase width for better visibility */
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(9, 135, 232);
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adjust the value to add space between input and button */
+}
+
+.button:hover {
+    background-color: rgb(234, 221, 221);
+}
+
+.special-header {
+    font-family: 'Your Desired Font', Bernard MT Condensed; /* Replace 'Your Desired Font' with your preferred font-family */
+    color: #333; /* Adjust the color to your liking */
+}

@@ -1,0 +1,49 @@
+/* Review.css */
+
+
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url('https://cdn.dribbble.com/users/6458339/screenshots/14690891/media/b7a8bc22c81b7c4d589a0e441a857fa9.gif') center center/cover fixed;
+  /* Add any other global styles you may need for the specific page */
+}
+
+.popup {
+  width: 70%;
+  padding: 50px;
+  background-color: rgba(250, 235, 215, 0.16); /* Adjust the alpha value for transparency */
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 80px;
+}
+
+.input {
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button {
+  border-radius: 10px;
+  color: black;
+  background-color: rgb(9, 135, 232);
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(234, 221, 221);
+}
+.special-header {
+  font-family: 'Your Desired Font', Bernard MT Condensed; /* Replace 'Your Desired Font' with your preferred font-family */
+  color: #333; /* Adjust the color to your liking */
+}

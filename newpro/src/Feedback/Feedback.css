@@ -1,0 +1,48 @@
+/* Feedback.css */
+
+.feed1 {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feed1 h1 {
+    color: #333;
+  }
+  
+  .feedin,
+  .fcom {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .feedb,
+  .feedb1 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .feedb1 {
+    background-color: #2196f3;
+  }
+  
+  .feedb:hover,
+  .feedb1:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add more styles as needed */
+  

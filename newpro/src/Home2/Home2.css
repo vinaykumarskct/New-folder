@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-area{
+    background-image: url('https://www.hdwallpapers.in/download/eiffel_tower_paris_with_clouds_background_hd_travel-HD.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    padding: 10px 25px;
+    border-spacing: 2cm;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 0.1cm;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.banner-text{
+    position: absolute;
+    width: 90%; /* Adjusted for responsiveness */
+    height: auto; /* Adjusted for responsiveness */
+    margin: 20% 5%; /* Adjusted for responsiveness */
+    text-align: center;
+}
+
+.banner-text h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vw; /* Adjusted font size for responsiveness */
+    font-family: cursive;
+}
+
+.banner-text p{
+    color: rgb(241, 237, 243);
+    font-size: 2vw; /* Adjusted font size for responsiveness */
+}
+
+.banner-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.1cm;
+    font-size: 1.5vw; /* Adjusted font size for responsiveness */
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.banner-text a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.todo h1{
+    font-family: cursive;
+    color: black;
+    margin-left: 10%; /* Adjusted for responsiveness */
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    .menu {
+        float: none;
+        text-align: center;
+    }
+
+    .menu ul li {
+        display: block;
+    }
+
+    .banner-text {
+        width: 90%;
+        margin: 20% 5%;
+    }
+
+    .banner-text h1 {
+        font-size: 6vw;
+    }
+
+    .banner-text p {
+        font-size: 3vw;
+    }
+
+    .banner-text a {
+        font-size: 2vw;
+    }
+
+    .todo h1 {
+        margin-left: 5%;
+    }
+}

@@ -1,0 +1,85 @@
+/* Write.css */
+
+.write {
+  background-image: url('https://www.hdwallpapers.in/download/eiffel_tower_paris_with_clouds_background_hd_travel-HD.jpg');
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.writeImg {
+  width: 100%;
+  height: auto;
+}
+
+.searchBar {
+  margin-top: 10px;
+  height: 40px; /* Adjust the height to your preference */
+  padding: 10px;
+}
+
+.writeForm {
+  margin-top: 20px;
+}
+
+.writeFormGroup {
+  position: relative;
+}
+
+.writeIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.writeInput,
+.writeText {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.writeSubmit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.publishedContent {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.uploadedFile {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styling using media queries */
+@media only screen and (max-width: 600px) {
+  .write {
+    padding: 10px;
+  }
+
+  .writeImg {
+    margin-bottom: 10px;
+  }
+
+  .writeInput,
+  .writeText {
+    margin-top: 5px;
+  }
+
+  .publishedContent {
+    margin-top: 10px;
+  }
+}

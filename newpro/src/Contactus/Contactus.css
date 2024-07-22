@@ -1,0 +1,40 @@
+/* Your existing styles */
+
+.img {
+    float: right;
+    width: 490px;
+    height: 290px;
+  }
+  
+  .para {
+    margin-right: 40%;
+  }
+  
+  .popups {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 15%;
+    width: 70%;
+    padding: 50px;
+    background-color: rgba(250, 235, 215, 0.132); /* Adjust the alpha value for transparency */
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+  }
+  
+  .button {
+    border-radius: 10px;
+    color: rgb(15, 13, 13);
+    background-color: rgb(75, 143, 211);
+  }
+  
+  .popups-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('https://assets-v2.lottiefiles.com/a/1f1c5790-1177-11ee-9220-5f141f7daa72/CB1D9PQM2P.gif') center center/cover fixed;
+    /* Add any other global styles you may need for the specific page */
+}

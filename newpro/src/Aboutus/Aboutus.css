@@ -1,0 +1,39 @@
+/* Your existing styles */
+.img {
+    float: right;
+    width: 490px;
+    height: 290px;
+  }
+  
+  .para {
+    margin-right: 40%;
+  }
+  
+  .flex {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 15%;
+    width: 70%;
+    padding: 50px;
+    background-color: rgba(250, 235, 215, 0.176); /* Adjust the alpha value for transparency */
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+  }
+  
+  .button {
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(193, 135, 94);
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/50/78/a0/5078a05eb1b6847d93383eaa4c0ed500.gif') center center/cover fixed;
+    /* Add any other global styles you may need for the specific page */
+}
